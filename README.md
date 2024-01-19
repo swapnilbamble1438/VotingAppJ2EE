@@ -63,19 +63,19 @@ url: https://swapnilbamble1438.github.io/VotingApplication/
 
 
 
-create table User(
-id int not null auto_increment,
-email varchar(255),
-name varchar(255),
-password varchar(255),
-phone int,
-status varchar(255),
-role varchar(255),
-Primary key(id));
-
-insert into User (email,name,password,phone,status,role)
-values("admin","admin","admin",
-1234,"I am Admin User","ROLE_ADMIN");
+          create table User(
+          id int not null auto_increment,
+          email varchar(255),
+          name varchar(255),
+          password varchar(255),
+          phone int,
+          status varchar(255),
+          role varchar(255),
+          Primary key(id));
+          
+          insert into User (email,name,password,phone,status,role)
+          values("admin","admin","admin",
+          1234,"I am Admin User","ROLE_ADMIN");
 
 
 
