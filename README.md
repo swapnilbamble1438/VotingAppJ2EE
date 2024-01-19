@@ -1,4 +1,4 @@
-# EcommerceApp 
+# Voting Application - Java J2EE
 
 ### Take a look at this Application
 url: https://swapnilbamble1438.github.io/VotingApplication/
@@ -7,6 +7,8 @@ url: https://swapnilbamble1438.github.io/VotingApplication/
 
 
 ### Application Features:
+- User can vote the Candidate.
+- Admin has the permission to see the vote details.
 
 ### Technology used in this Project: 
 - i) Java: all Backend logic has been written in java.
@@ -43,21 +45,21 @@ url: https://swapnilbamble1438.github.io/VotingApplication/
 
   ### Put this MySQL Queries for creating Database and Tables
 
-create database votingappj2ee;
-
-create table Candidate(
-id int not null,
-candidate varchar(255),
-votes int,
-Primary key(id));
-
-insert into Candidate(id,candidate,votes) values(1,"candidate1",0);
-
-insert into Candidate(id,candidate,votes) values(2,"candidate2",0);
-
-insert into Candidate(id,candidate,votes) values(3,"candidate3",0);
-
-insert into Candidate(id,candidate,votes) values(4,"candidate4",0);
+          create database votingappj2ee;
+          
+          create table Candidate(
+          id int not null,
+          candidate varchar(255),
+          votes int,
+          Primary key(id));
+          
+          insert into Candidate(id,candidate,votes) values(1,"candidate1",0);
+          
+          insert into Candidate(id,candidate,votes) values(2,"candidate2",0);
+          
+          insert into Candidate(id,candidate,votes) values(3,"candidate3",0);
+          
+          insert into Candidate(id,candidate,votes) values(4,"candidate4",0);
 
 
 
