@@ -1,0 +1,34 @@
+create database votingappj2ee;
+
+create table Candidate(
+     id int not null,
+     candidate varchar(255),
+     votes int,
+     Primary key(id));
+
+insert into Candidate(id,candidate,votes) values(1,"candidate1",0);
+
+insert into Candidate(id,candidate,votes) values(2,"candidate2",0);
+
+insert into Candidate(id,candidate,votes) values(3,"candidate3",0);
+
+insert into Candidate(id,candidate,votes) values(4,"candidate4",0);
+
+
+
+create table User(
+     id int not null auto_increment,
+     email varchar(255),
+     name varchar(255),
+     password varchar(255),
+     phone int,
+     status varchar(255),
+     role varchar(255),
+     Primary key(id));
+
+ insert into User (email,name,password,phone,status,role)
+     values("admin","admin","admin",
+     1234,"I am Admin User","ROLE_ADMIN");
+
+
+select * from User;
