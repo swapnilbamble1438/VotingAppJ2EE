@@ -37,6 +37,9 @@ url: https://swapnilbamble1438.github.io/VotingApplication/
 
 -  proceed -> Next
 
+- select -> Search for nested projects
+- and select -> Detect and configure project natures options
+
             Now only select VotingAppJ2EE\B7iii_VotingApp_MavenProject_Final
             -> Finish
   
