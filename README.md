@@ -23,7 +23,7 @@ url: https://swapnilbamble1438.github.io/VotingApplication/
 - Eclipse EE
 - Apache Maven
 - Tomcat v8.0+
-- SQLite Tools (Online or Offline Tool)
+- MySQL
 
 ### Steps To Import And Run The Project in Eclipse EE
 - In Eclipse
